@@ -14,9 +14,9 @@ tags:
 - Indie EdTech Data Jam
 - Images
 - Gifs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/stickers/master/_listings/giphy/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Giphy Gif API
@@ -27,7 +27,7 @@ apis:
   tags: Stickers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/stickers/master/_listings/giphy/stickers-trending-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-random-get.md
 x-common:
 - type: x-blog
   url: http://blog.giphy.com/
