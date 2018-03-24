@@ -27,7 +27,7 @@ apis:
   tags: Stickers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-translate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-trending-get.md
 x-common:
 - type: x-blog
   url: http://blog.giphy.com/
