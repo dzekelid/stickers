@@ -28,7 +28,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-trending-get.md
+- name: Giphy Gif API Random Sticker
+  description: Returns a random GIF, limited by tag. Excluding the tag parameter will
+    return a random GIF from the GIPHY catalog.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png
+  humanURL: https://giphy.com
+  baseURL: http://api.giphy.com//v1
+  tags: Stickers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-random-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-random-get-postman.md
 x-common:
+- type: x-blog
+  url: http://blog.giphy.com/
+- type: x-developer
+  url: https://api.giphy.com/
+- type: x-github
+  url: https://github.com/Giphy
+- type: x-twitter
+  url: https://twitter.com/giphy
+- type: x-website
+  url: https://giphy.com
 - type: x-blog
   url: http://blog.giphy.com/
 - type: x-developer
