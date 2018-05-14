@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Giphy
-  description: Natively embed all the best features of the world's largest and most
-    powerful GIF library into your app.
+  title: Giphy Gif API Trending Stickers
+  description: Fetch Stickers currently trending online. Hand curated by the GIPHY
+    editorial team. Returns 25 results by default.
   termsOfService: https://developers.giphy.com/
   version: v1
 host: api.giphy.com
