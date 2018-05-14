@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Giphy
-  description: Natively embed all the best features of the world's largest and most
-    powerful GIF library into your app.
+  title: Giphy Gif API Translate phrase to Sticker
+  description: The translate API draws on search, but uses the GIPHY `special sauce`
+    to handle translating from one vocabulary to another. In this case, words and
+    phrases to GIFs.
   termsOfService: https://developers.giphy.com/
   version: v1
 host: api.giphy.com
