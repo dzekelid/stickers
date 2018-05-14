@@ -28,19 +28,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-trending-get.md
-- name: Giphy Gif API Translate phrase to Sticker
-  description: The translate API draws on search, but uses the GIPHY `special sauce`
-    to handle translating from one vocabulary to another. In this case, words and
-    phrases to GIFs.
+- name: Giphy Gif API Trending Stickers
+  description: Fetch Stickers currently trending online. Hand curated by the GIPHY
+    editorial team. Returns 25 results by default.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png
   humanURL: https://giphy.com
   baseURL: http://api.giphy.com//v1
   tags: Stickers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-translate-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-trending-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-translate-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/stickers-trending-get-postman.md
 x-common:
 - type: x-blog
   url: http://blog.giphy.com/
