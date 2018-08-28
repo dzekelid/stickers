@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Stickers",
+	"description": "This is a repository of stickers APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/stickers.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://stickers.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Giphy",
+			"x-api-slug": "giphy",
+			"description": "Giphy is a search engine for GIFs. Animated GIFs have existed for decades, but there was still no good way to browse and discover the best the web had to offer. And the vision for Giphy isn&rsquo;t really just about finding GIFs. It&rsquo;s a search engine today but soon you&rsquo;ll see it grow into a community, a platform with a host of features targeted at gif artists, enthusiasts, bloggers, and anyone generally looking to discover or create that next big meme.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
+			"humanURL": "https://giphy.com",
+			"baseURL": "http://api.giphy.com//v1",
+			"tags": "Stickers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Trello",
+			"x-api-slug": "trello",
+			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
+			"humanURL": "http://trello.com",
+			"baseURL": "https://trello.com//1",
+			"tags": "Stickers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/trello/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Stickers",
+	"include": [
+		{
+			"name": "Giphy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/giphy/apis.yaml"
+		},
+		{
+			"name": "Trello",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stickers/master/_listings/trello/apis.yaml"
+		}
+	]
+}
